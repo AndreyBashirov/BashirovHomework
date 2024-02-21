@@ -203,5 +203,7 @@ int main()
 */
     printf("bubblecomparisons: %lld bubbleswaps: %lld quicksortcomparisons: %lld quicksortswaps: %lld\n", bubblecomparisons, bubbleswaps, quicksortcomparisons, quicksortswaps);
     zeros();
+    free(arr1);
+    free(arr2);
     return 0;
 }
